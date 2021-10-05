@@ -29,6 +29,21 @@ export default class CodeTestPart extends React.Component<ICodeTestPartProps, ID
         name: 'Add more items to this list',
         status: 'To Do',
       },
+      {
+        key: 0,
+        name: 'Pass this easy test',
+        status: 'Done',
+      },
+      {
+        key: 0,
+        name: 'Get a great job',
+        status: 'To Do',
+      },
+      {
+        key: 0,
+        name: 'Take a vacation',
+        status: 'To Do',
+      },
     ];
 
     this._columns = [
